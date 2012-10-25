@@ -96,6 +96,12 @@ range(1, 3).sum();
 // => 6
 ```
 
+## Installation
+
+```
+$ npm install r...e
+```
+
 ## Requirements
 
 - Node.js >= 0.6.0
