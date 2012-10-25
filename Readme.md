@@ -11,8 +11,7 @@ var range = require('r...e');
 ### Numeric range
 
 ```js
-var actual = range(1, 3);
-actual.toArray();
+range(1, 3).toArray();
 
 // => [1, 2, 3]
 ```
@@ -20,8 +19,7 @@ actual.toArray();
 ### Alpha range
 
 ```js
-var actual = range('a', 'c');
-actual.toArray();
+range('a', 'c').toArray();
 
 // => ['a', 'b', 'c']
 ```
@@ -29,10 +27,43 @@ actual.toArray();
 ### Steps
 
 ```js
-var actual = range(0, 10, 5);
-actual.toArray();
+range(0, 10, 5).toArray();
 
 // => [0, 5, 10]
+```
+
+### #include
+
+```js
+range(1, 3).include(2);
+
+// => true
+
+range(1, 3).include(4);
+
+// => false
+```
+
+### #map
+
+```js
+range(1, 3).map(function(n) {
+  return n;
+});
+
+// => [1, 2, 3]
+```
+
+### #each
+
+```js
+range(1, 3).each(function(n) {
+  console.log(n);
+});
+
+// => 1
+// => 2
+// => 3
 ```
 
 ## Requirements
