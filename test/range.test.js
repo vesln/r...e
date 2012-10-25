@@ -64,4 +64,9 @@ describe('range', function() {
 
     actual.should.eql([2, 4, 6]);
   });
+
+  it('can join itself', function() {
+    range(1, 2).join('').should.eq('12');
+    range(1, 2).join().should.eq('1,2');
+  });
 });
