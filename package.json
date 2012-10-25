@@ -1,0 +1,25 @@
+{
+  "name": "r...e",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./index.js",
+  "homepage": "https://github.com/vesln/r...e",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vesln/r...e"
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "author": "Veselin Todorov <hi@vesln.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
