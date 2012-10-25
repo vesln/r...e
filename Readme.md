@@ -2,6 +2,8 @@
 
 # r...e
 
+Range implementation for Node.js
+
 ## Synopsis
 
 ```js
