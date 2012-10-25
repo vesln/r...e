@@ -69,4 +69,13 @@ describe('range', function() {
     range(1, 2).join('').should.eq('12');
     range(1, 2).join().should.eq('1,2');
   });
+
+  it('can tell if it is equal to another range', function() {
+    range(1, 2).equal(range(1, 2)).should.be.true;
+    range(1, 2, 1).equal(range(1, 2, 2)).should.be.false;
+  });
+
+  it('can sum the range', function() {
+    range(1, 3).sum().should.eq(6);
+  });
 });
