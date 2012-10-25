@@ -66,6 +66,34 @@ range(1, 3).each(function(n) {
 // => 3
 ```
 
+### #join
+
+```js
+range(1, 2).join('');
+range(1, 2).join();
+
+// => '12'
+// => '1,2'
+```
+
+### #equal
+
+```js
+range(1, 2).equal(range(1, 2));
+range(1, 2, 1).equal(range(1, 2, 2));
+
+// => true
+// => false
+```
+
+### #sum
+
+```js
+range(1, 3).sum();
+
+// => 6
+```
+
 ## Requirements
 
 - Node.js >= 0.6.0
