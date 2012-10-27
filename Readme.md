@@ -96,6 +96,33 @@ range(1, 3).sum();
 // => 6
 ```
 
+### #min
+
+```js
+range().min(1);
+range().min();
+
+// => 1
+```
+
+### #max
+
+```js
+range().max(3);
+range().max();
+
+// => 3
+```
+
+### #step
+
+```js
+range().step(1);
+range().step();
+
+// => 1
+```
+
 ## Installation
 
 ```
