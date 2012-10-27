@@ -99,8 +99,7 @@ range(1, 3).sum();
 ### #min
 
 ```js
-range().min(1);
-range().min();
+range().min(1).min();
 
 // => 1
 ```
@@ -108,8 +107,7 @@ range().min();
 ### #max
 
 ```js
-range().max(3);
-range().max();
+range().max(3).max();
 
 // => 3
 ```
@@ -117,8 +115,7 @@ range().max();
 ### #step
 
 ```js
-range().step(1);
-range().step();
+range().step(1).step();
 
 // => 1
 ```
