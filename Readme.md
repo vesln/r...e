@@ -2,7 +2,7 @@
 
 # r...e
 
-Range implementation for Node.js
+Range implementation for Node.js & the browsers
 
 ## Synopsis
 
