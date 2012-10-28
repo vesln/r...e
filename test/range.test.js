@@ -85,5 +85,7 @@ describe('range', function() {
     range('1..3').toArray().should.eql([1, 2, 3]);
     range('10..11').toArray().should.eql([10, 11]);
     range('5..10', 5).toArray().should.eql([5, 10]);
+    range('a..c').toArray().should.eql(['a', 'b', 'c']);
+    range('A..C').toArray().should.eql(['A', 'B', 'C']);
   });
 });
