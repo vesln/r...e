@@ -15,7 +15,7 @@ browser: $(SRC)
 	@node support/compile $^
 
 clean:
-	@rm -f decorator.js
-	@rm -f decorator.min.js
+	@rm -f range.js
+	@rm -f range.min.js
 
 .PHONY: test browser clean
