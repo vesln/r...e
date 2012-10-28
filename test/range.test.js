@@ -3,7 +3,7 @@
  * Internal dependencies.
  */
 
-var range = require('..');
+var range = range || require('../');
 
 describe('range', function() {
   it('can build a numeric range', function() {

@@ -11,11 +11,13 @@
     "type": "git",
     "url": "https://github.com/vesln/r...e"
   },
-  "keywords": ["range"],
-  "dependencies": {},
+  "keywords": [
+    "range"
+  ],
   "devDependencies": {
     "mocha": "*",
-    "chai": "*"
+    "chai": "*",
+    "folio": "~0.3.4"
   },
   "author": "Veselin Todorov <hi@vesln.com>",
   "license": "MIT",

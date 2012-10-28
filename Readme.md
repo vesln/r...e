@@ -123,24 +123,36 @@ range().step(1).step();
 
 ## Installation
 
+Node.js:
+
 ```
 $ npm install r...e
 ```
 
-## Requirements
+Browser:
 
-- Node.js >= 0.6.0
+Download `range.min.js`, it's all you need.
+
+```html
+<script src="range.min.js"></script>
+```
 
 ## Tests
+
+Node.js:
 
 ```
 $ npm install
 $ make test
 ```
 
+Browser:
+
+- Clone the repository
+- Open `test/browser/index.html` in your favourite browser
+
 ## TODO
 
-- Browser support
 - Handle floats
 
 ## License
