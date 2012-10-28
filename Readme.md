@@ -14,6 +14,7 @@ var range = require('r...e');
 
 ```js
 range(1, 3).toArray();
+range('1..3').toArray();
 
 // => [1, 2, 3]
 ```
@@ -136,6 +137,11 @@ $ npm install r...e
 $ npm install
 $ make test
 ```
+
+## TODO
+
+- Browser support
+- Handle floats
 
 ## License
 

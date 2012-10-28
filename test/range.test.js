@@ -7,7 +7,9 @@ var range = require('..');
 
 describe('range', function() {
   it('can build a numeric range', function() {
-    var actual = range(1, 3);
+    var actual = null;
+
+    actual = range(1, 3);
     actual.toArray().should.eql([1, 2, 3]);
   });
 
@@ -77,5 +79,11 @@ describe('range', function() {
 
   it('can sum the range', function() {
     range(1, 3).sum().should.eq(6);
+  });
+
+  it('supports the double dots syntax', function() {
+    range('1..3').toArray().should.eql([1, 2, 3]);
+    range('10..11').toArray().should.eql([10, 11]);
+    range('5..10', 5).toArray().should.eql([5, 10]);
   });
 });
